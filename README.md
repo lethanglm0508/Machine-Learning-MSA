@@ -55,8 +55,8 @@ Bạn có thể mở tệp `model_based_collaborative_filtering_recommender.ipyn
 | Mô hình | RMSE | MAE |
 | :--- | :---: | :---: |
 | **Global Mean Baseline** | 1.0896 | 0.8391 |
-| **Linear Regression** | 0.9756 | 0.6476 |
-| **Ridge Regression (alpha=10)** | **0.9724** | **0.6434** |
+| **Linear Regression** | 0.9782 | 0.6501 |
+| **Ridge Regression (alpha=10)** | **0.9749** | **0.6459** |
 | *User Mean Baseline* | *0.9678* | *0.5506* |
 
 ### 2. Chất lượng gợi ý xếp hạng Top-10 (Ranking Metrics)
@@ -64,7 +64,7 @@ Bạn có thể mở tệp `model_based_collaborative_filtering_recommender.ipyn
 
 | Mô hình gợi ý | Precision@10 | Recall@10 | NDCG@10 |
 | :--- | :---: | :---: | :---: |
-| **Ridge Regression (alpha=10)** | 0.0015 | 0.0142 | 0.0068 |
+| **Ridge Regression (alpha=10)** | 0.0017 | 0.0154 | 0.0070 |
 | **Popularity Baseline** | **0.0205** | **0.1846** | **0.0910** |
 
 *Lưu ý và thảo luận chi tiết về sự phân bố đuôi dài (long-tail) của dữ liệu thương mại điện tử và lý do Popularity Baseline đạt kết quả tốt hơn được trình bày rõ trong [Báo Cáo Dự Án](report_recommendation_system.md).*
